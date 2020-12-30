@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import "./Book.css";
+// import "./Book.css";
 
 class Book extends Component {
+    // constructor(props) {
+    //     super(props);
+    // }
 
     render() {
         return (
             <div className="BookElement">
-                <h2>다오니책</h2>
-                <h3>멋진 이야기가 한가득</h3>
+                <h2>{this.props.title}</h2>
+                <img src={this.props.imgUrl} alt={this.props.id}></img>
             </div>
         );
     }
