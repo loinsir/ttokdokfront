@@ -25,7 +25,7 @@ class MainBookSlider extends Component {
         var wrappingTags = [];
         while(i < this.state.mainBookSliderList.length){
             var _bookElement = <div>
-            <Book id={this.state.mainBookSliderList[i].id}
+            <Book key={this.state.mainBookSliderList[i].id}
             title={this.state.mainBookSliderList[i].title}
             imgUrl={this.state.mainBookSliderList[i].imgUrl}
         ></Book></div>;
@@ -58,7 +58,6 @@ class MainBookSlider extends Component {
             <div>
                 <h2 style={{
                     fontSize: '50px',
-
                 }}>아기 다온이를 위한 책 여기에</h2>
                 <Slider {...settings}>
                     {this.generateBookList()}
