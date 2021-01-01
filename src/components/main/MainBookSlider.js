@@ -16,7 +16,9 @@ class MainBookSlider extends Component {
                 {id:'5', title: '랄라예나의 동화 소녀 종이인형', imgUrl: 'https://image.aladin.co.kr/product/9299/62/cover500/8925560011_1.jpg'},
                 {id:'6', title: '미하엘 엔데 동화 전집', imgUrl: 'https://image.aladin.co.kr/product/8697/55/cover500/8961705547_1.jpg'},
                 {id:'7', title: '세계 명작 동화 Cinderella 신데렐라 영어 사운드북', imgUrl: 'https://image.aladin.co.kr/product/25227/55/cover500/k472633900_1.jpg'}
-            ]
+            ],
+
+            isOver: false
         };
     }
 
@@ -28,7 +30,7 @@ class MainBookSlider extends Component {
             <Book key={this.state.mainBookSliderList[i].id}
             title={this.state.mainBookSliderList[i].title}
             imgUrl={this.state.mainBookSliderList[i].imgUrl}
-        ></Book></div>;
+            ></Book></div>;
             wrappingTags.push(_bookElement);
             i++;
         }

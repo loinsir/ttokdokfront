@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import "./Book.css";
+import "./Book.css";
 
 class Book extends Component {
     // constructor(props) {
@@ -8,9 +8,11 @@ class Book extends Component {
 
     render() {
         return (
-            <div className="BookElement">
+            <div>
                 <h2>{this.props.title}</h2>
-                <img src={this.props.imgUrl} alt={this.props.id}></img>
+                <img src={this.props.imgUrl} alt={this.props.id}
+                className="BookImg">
+                </img>
             </div>
         );
     }
