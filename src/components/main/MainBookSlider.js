@@ -25,7 +25,7 @@ class MainBookSlider extends Component {
     generateBookList() {
         var i = 0;
         var wrappingTags = [];
-        while(i < this.state.mainBookSliderList.length){
+        while(i < this.state.mainBookSliderList.length){ //maybe need refactoring...
             var _bookElement = <div>
             <Book key={this.state.mainBookSliderList[i].id}
             title={this.state.mainBookSliderList[i].title}
