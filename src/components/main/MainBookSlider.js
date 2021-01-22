@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Book from "./Book";
+import { Link } from "react-router-dom";
 
 class MainBookSlider extends Component {
     constructor(props) {
@@ -58,6 +59,8 @@ class MainBookSlider extends Component {
 
         return (
             <div>
+                <img className="App-header-img" src="https://cdn.pixabay.com/photo/2017/09/11/15/34/animals-2739386_960_720.jpg" alt="logo"/>
+                <Link to="/" className="anchor"><h1 id="mainTitle">똑똑?</h1></Link>
                 <h2 style={{
                     fontSize: '50px',
                 }}>아기 다온이를 위한 책 여기에</h2>
