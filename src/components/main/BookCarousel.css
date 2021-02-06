@@ -1,0 +1,9 @@
+.d-block {
+    display: block;
+}
+
+.center {
+    width: 'auto';
+    height: '500px';
+    margin: '0 auto';
+}
