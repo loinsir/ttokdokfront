@@ -46,7 +46,7 @@ class BookCarousel extends Component {
     render() {
         return (
             <div>
-                <Carousel pause=''>
+                <Carousel style={{backgroundColor: "skyblue"}}>
                     {this.generateCarouselList()}
                 </Carousel>
             </div>

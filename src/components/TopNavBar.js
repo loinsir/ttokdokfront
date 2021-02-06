@@ -6,7 +6,7 @@ class TopNavBar extends Component {
         return (
             <Navbar bg="dark" variant="dark" sticky="top">
                 <Navbar.Brand href="/"><h4>똑똑?</h4></Navbar.Brand>
-                <Form inline>
+                <Form inline className='ml-auto'>
                     <FormControl type="text" placeholder="Search" className="BookSearchForm"></FormControl>
                     <Button variant="outline-info">검색</Button>
                 </Form>
