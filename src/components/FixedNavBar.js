@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Nav } from "react-bootstrap";
 
-class SideBar extends Component {
+class FixedNavBar extends Component {
     render() {
         return(
             <Nav className="col-md-12 d-none d-md-block bg-light sidebar">
@@ -15,4 +15,4 @@ class SideBar extends Component {
     }
 }
 
-export default SideBar;
+export default FixedNavBar;

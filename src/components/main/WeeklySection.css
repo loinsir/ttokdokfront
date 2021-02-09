@@ -1,0 +1,20 @@
+.weeklyBook {
+    width: 360px;
+    height: auto;
+}
+
+#weeklysection {
+    background-color: springgreen;
+    height: 550px;
+    padding: 70px;
+}
+
+#weeklytitle {
+    font-size: 60px;
+    color: crimson;
+}
+
+#desc {
+    font-size: 30px;
+    color: tomato;
+}
