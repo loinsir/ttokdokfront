@@ -8,7 +8,7 @@ class WeeklySection extends Component {
             <Container fluid>
                 <h1 id="weeklytitle">WEEKLY Best</h1>
                 <h3 id="desc">금주의 인기 도서 입니다.</h3>
-                <Row id="weeklysection">
+                <Row id="weeklysection" className="align-items-center">
                     <Col xs={6} md={4}>
                         <Image src="https://cache.wjthinkbig.com/WJMALL/FI-20191128093115013/A56280FE-F34B-4C2D-9D6F-3540F660F897.JPG" 
                         className="weeklyBook" roundedCircle fluid/>
