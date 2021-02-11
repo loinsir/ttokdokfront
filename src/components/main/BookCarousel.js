@@ -32,9 +32,6 @@ class BookCarousel extends Component {
                                 margin: '0 auto',
                             }}
                         />;
-                        <Carousel.Caption>
-                            <h3 style={{color: 'black'}}>{this.state.itemList[i].title}</h3>
-                        </Carousel.Caption>
                         </Carousel.Item>
             wrappingTags.push(carouselItem);
             i++;
@@ -46,7 +43,7 @@ class BookCarousel extends Component {
     render() {
         return (
             <div>
-                <Carousel style={{backgroundColor: "skyblue"}}>
+                <Carousel style={{backgroundColor: "wheat"}} className="border border-light">
                     {this.generateCarouselList()}
                 </Carousel>
             </div>
