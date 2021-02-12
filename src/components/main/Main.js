@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import BookCarousel from "./BookCarousel";
 import WeeklySection from "./WeeklySection";
 import VideoSection from "./VideoSection";
+import BookCardDeck from "./BookCardDeck";
 import './Main.css';
 
 class Main extends Component {
@@ -16,6 +17,7 @@ class Main extends Component {
                 <BookCarousel></BookCarousel>
                 <VideoSection></VideoSection>
                 <WeeklySection></WeeklySection>
+                <BookCardDeck></BookCardDeck>
             </div>
         );
     }
